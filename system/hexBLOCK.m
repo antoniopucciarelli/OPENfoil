@@ -15,11 +15,8 @@ classdef hexBLOCK
 % 
     
     properties
-       vertex     = zeros(8,3)
-       vertexNAME = zeros(8,1)
+       vertex     = zeros(8,3) % stores the vertex points' coords
+       vertexNAME = zeros(8,1) % stores the vertex points' name
     end
-    
-    
-    
     
 end

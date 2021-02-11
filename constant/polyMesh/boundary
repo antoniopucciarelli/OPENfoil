@@ -19,45 +19,41 @@ FoamFile
 (
     bottom
     {
-        type            empty;
-        inGroups        1(empty);
-        nFaces          120;
-        startFace       4320;
+        type            patch;
+        nFaces          250;
+        startFace       34630;
     }
     top
     {
-        type            empty;
-        inGroups        1(empty);
-        nFaces          120;
-        startFace       4440;
+        type            patch;
+        nFaces          250;
+        startFace       34880;
     }
     inlet
     {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          20;
-        startFace       4560;
+        type            patch;
+        nFaces          70;
+        startFace       35130;
     }
     outlet
     {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          20;
-        startFace       4580;
+        type            patch;
+        nFaces          70;
+        startFace       35200;
     }
     airsurface
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          200;
-        startFace       4600;
+        nFaces          100;
+        startFace       35270;
     }
     defaultFaces
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          5280;
-        startFace       4800;
+        nFaces          35000;
+        startFace       35370;
     }
 )
 
